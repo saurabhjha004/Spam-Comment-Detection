@@ -30,7 +30,7 @@ model.fit(xtrain,ytrain)
 
 print(model.score(xtest,ytest))
 
-# Its time to check the model by giving spam and non-spam comments
+# We will check the model by giving spam and non-spam comments
 
 S = input("Enter a comment : ")
 d = cv.transform([S]).toarray()
